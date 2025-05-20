@@ -9,7 +9,38 @@
 </head>
 
 <body>
-  
+
+  <main id="container">
+    <div class="video-conteiner">
+      <video autoplay loop muted>
+        <source src="" type="vide/mp4">
+      </video>
+
+      <div class="login-conteiner">
+        <header>
+          <h1>
+            login
+          </h1>
+        </header>
+
+        <form action="" id="form-login">
+          <article class="form-group">
+            <label for="usuario">Usuario</label>
+            <input type="text" id="usuario" name="usuario" required/>
+          </article>
+          <article class="form-group">
+            <label for="password">Senha</label>
+            <input type="text" id="password" name="password" required/>
+          </article>
+          <button type="submit" id="btnEntrar">Entrar</button>
+          <button id="btnTrocar">Trocar</button>
+        </form>
+
+        <div id="message" class="message"></div>
+      </div>
+    </div>
+  </main>
+
   <script src="./src/JavaScript/script.js"></script>
 
 </body>
